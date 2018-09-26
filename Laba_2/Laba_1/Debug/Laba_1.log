@@ -1,0 +1,4 @@
+﻿Hello.obj : error LNK2019: ссылка на неразрешенный внешний символ _SetConsoleCP в функции _main
+Hello.obj : error LNK2019: ссылка на неразрешенный внешний символ _SetConsoleOutputCP в функции _main
+Hello.obj : error LNK2019: ссылка на неразрешенный внешний символ _sen в функции _main
+D:\My\Навчання\C LANGUAGE\Laba_1\Debug\Laba_1.exe : fatal error LNK1120: неразрешенных внешних элементов: 3

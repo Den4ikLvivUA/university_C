@@ -1,0 +1,11 @@
+﻿  Hello.c
+d:\my\навчання\c language\laba_1\laba_1\first.h(23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\my\навчання\c language\laba_1\laba_1\first.h(27): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+d:\my\навчання\c language\laba_1\laba_1\first.h(27): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\my\навчання\c language\laba_1\laba_1\first.h(31): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\my\навчання\c language\laba_1\laba_1\first.h(39): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+d:\my\навчання\c language\laba_1\laba_1\first.h(40): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
+d:\my\навчання\c language\laba_1\laba_1\second.h(32): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+d:\my\навчання\c language\laba_1\laba_1\hello.c(76): warning C4013: SetConsoleCP: нет определения; предполагается "extern" с возвратом типа "int"
+d:\my\навчання\c language\laba_1\laba_1\hello.c(77): warning C4013: SetConsoleOutputCP: нет определения; предполагается "extern" с возвратом типа "int"
+  Laba_1.vcxproj -> D:\My\Навчання\C LANGUAGE\Laba_1\x64\Debug\Laba_1.exe

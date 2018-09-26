@@ -1,0 +1,15 @@
+﻿  Hello.c
+Hello.c(74): warning C4013: SetConsoleCP: нет определения; предполагается "extern" с возвратом типа "int"
+Hello.c(75): warning C4013: SetConsoleOutputCP: нет определения; предполагается "extern" с возвратом типа "int"
+Hello.c(92): warning C4013: sen: нет определения; предполагается "extern" с возвратом типа "int"
+Hello.c(92): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+Hello.c(96): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+Hello.c(96): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+Hello.c(100): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+Hello.c(108): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+Hello.c(73): warning C4101: result_2: неиспользованная локальная переменная
+Hello.c(73): warning C4101: result_1: неиспользованная локальная переменная
+Hello.obj : error LNK2001: неразрешенный внешний символ "_sen"
+Hello.obj : error LNK2001: неразрешенный внешний символ "_SetConsoleCP"
+Hello.obj : error LNK2001: неразрешенный внешний символ "_SetConsoleOutputCP"
+D:\My\Навчання\C LANGUAGE\Laba_1\Release\Laba_1.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
