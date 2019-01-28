@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+#define _CRT_SECURE_NO_WARNINGS 1
+main()
+{
+	FILE *f;
+	f = fopen("Laboratorna3.txt", "r");
+	if (f == NULL)
+	{
+		perror("Pomulka");
+		exit(0);
+	}
+	int n = 0;
+	char c;
+	while ((c = fgetc(f)) != EOF)
+	{
+		if (isalpha(c))
+		{
+
+			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'y')
+				c = '1';
+			else
+				c = '0';
+		}
+		if (c != '1'&&c != '0')
+			n++;
+
+		printf("%c", c);
+	}
+	printf("Kilkist znakiv,scho ne ye \'1\' ta \'0\': %i", n);
+	fclose(f);
+}
